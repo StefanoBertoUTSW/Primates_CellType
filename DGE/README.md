@@ -15,10 +15,10 @@ The script involves 3 steps
 - **Filtering** of the results detecting *Species specific DGE*
 
 # 2) After DGE analysis use:
-R CMD BATCH --vanilla Make_DGE_Data.R
+**R CMD BATCH --vanilla Make_DGE_Data.R**
 
 # 3) For basic visualization use: 
-R CMD BATCH --vanilla Viz_NeuN.R
+**R CMD BATCH --vanilla Viz_NeuN.R**
 
-R CMD BATCH --vanilla Viz_OLIG2.R
+**R CMD BATCH --vanilla Viz_OLIG2.R**
 
