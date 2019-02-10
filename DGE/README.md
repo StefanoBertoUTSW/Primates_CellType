@@ -3,15 +3,15 @@ Scripts for RNA seq analysis.
 
 ### Usage
 # 1) Run DGE analysis: 
-R CMD BATCH --vanilla Dge_NeuN_LM.R
+**R CMD BATCH --vanilla Dge_NeuN_LM.R**
 
-R CMD BATCH --vanilla Dge_OLIG2_LM.R
+**R CMD BATCH --vanilla Dge_OLIG2_LM.R**
 
 ### Details
 The script involves 3 steps
 - **Data transformation** using *log2(CPM)*
 - **QC** of tranformed counts
-- **Modeling** of transformed counts based on *linear Modeling*
+- **Modeling** of transformed counts based on *Linear Modeling*
 - **Filtering** of the results detecting *Species specific DGE*
 
 # 2) After DGE analysis use:
